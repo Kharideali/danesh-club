@@ -3,7 +3,7 @@ window.CLUB_CATEGORIES = [
     slug: 'tools', title: 'ابزارهای علمی و آموزشی', shortTitle: 'ابزارهای علمی',
     kicker: 'از ابزار تا اکتشاف', description: 'تلسکوپ، میکروسکوپ و ابزارهای آزمایش را بهتر بشناس؛ بفهم هرکدام چه چیزی را آشکار می‌کنند و چطور از آن‌ها برای یادگیری دقیق‌تر استفاده کنی.',
     cardText: 'با ابزارهایی آشنا شو که کمک می‌کنند جهان را دورتر، نزدیک‌تر و دقیق‌تر ببینی.',
-    image: '/assets/images/science-tools.webp',
+    image: 'https://cdn.jsdelivr.net/gh/Kharideali/danesh-club@main/assets/images/science-tools.webp',
     tone: '#fff0e9', accent: '#e66b4f', topics: [
       { id: 'telescopes', title: 'تلسکوپ و نجوم', description: 'از دهانه و بزرگ‌نمایی تا انتخاب نخستین ابزار رصد؛ هر ویژگی چه معنایی دارد؟' },
       { id: 'microscopes', title: 'میکروسکوپ و دنیای میکروسکوپی', description: 'نمونه‌ها را با وضوح بیشتر ببین و با انواع میکروسکوپ آشنا شو.' },
@@ -20,7 +20,7 @@ window.CLUB_CATEGORIES = [
     slug: 'puzzles', title: 'پازل‌ها و بازی‌های فکری', shortTitle: 'بازی‌های فکری',
     kicker: 'فکر کن، بساز، دوباره امتحان کن', description: 'بازی‌های فکری فقط سرگرمی نیستند؛ آن‌ها فرصتی‌اند برای دیدن الگوها، آزمودن راه‌حل‌ها و یادگرفتن از اشتباه‌ها.',
     cardText: 'از یک معمای کوتاه تا سازه‌ای سه‌بعدی؛ هر چالش راه تازه‌ای برای فکرکردن باز می‌کند.',
-    image: '/assets/images/puzzles.webp',
+    image: 'https://cdn.jsdelivr.net/gh/Kharideali/danesh-club@main/assets/images/puzzles.webp',
     tone: '#fff5d9', accent: '#cf8b20', topics: [
       { id: 'logic', title: 'پازل‌های فکری و منطقی', description: 'سرنخ‌ها را مرتب کن و با استدلال، قدم‌به‌قدم به پاسخ برس.' },
       { id: '3d-puzzles', title: 'پازل‌های سه‌بعدی', description: 'شکل‌ها را در ذهن بچرخان و رابطهٔ میان قطعه‌ها را کشف کن.' },
@@ -34,7 +34,7 @@ window.CLUB_CATEGORIES = [
     slug: 'brain', title: 'دنیای مغز و یادگیری', shortTitle: 'مغز و یادگیری',
     kicker: 'چطور یاد می‌گیریم؟', description: 'با نگاهی علمی و ساده به مغز، حافظه و توجه، راه‌هایی پیدا کن تا یادگیری را آگاهانه‌تر و مؤثرتر پیش ببری.',
     cardText: 'از حافظه و تمرکز تا حل مسئله؛ نگاهی کنجکاوانه به شیوهٔ یادگرفتن انسان.',
-    image: '/assets/images/brain-learning.webp',
+    image: 'https://cdn.jsdelivr.net/gh/Kharideali/danesh-club@main/assets/images/brain-learning.webp',
     tone: '#f2eaff', accent: '#7c62bd', topics: [
       { id: 'how-brain-learns', title: 'مغز چگونه یاد می‌گیرد؟', description: 'تمرین و بازخورد چه نقشی در شکل‌گیری و تقویت یادگیری دارند؟' },
       { id: 'memory', title: 'حافظه و فراموشی', description: 'با رمزگردانی، یادآوری و فراموشی به زبان ساده آشنا شو.' },
@@ -49,7 +49,7 @@ window.CLUB_CATEGORIES = [
     slug: 'space', title: 'دنیای نجوم و فضا', shortTitle: 'نجوم و فضا',
     kicker: 'نگاهی به دوردست‌ها', description: 'از سیاره‌های نزدیک تا کهکشان‌های دور، با پرسش‌های ساده و نگاه علمی به آسمان شب نزدیک‌تر شو.',
     cardText: 'منظومهٔ شمسی را بشناس و برای نخستین نگاه جدی‌ات به آسمان آماده شو.',
-    image: '/assets/images/space.webp',
+    image: 'https://cdn.jsdelivr.net/gh/Kharideali/danesh-club@main/assets/images/space.webp',
     tone: '#e8edff', accent: '#5167bd', topics: [
       { id: 'solar-system', title: 'آشنایی با منظومهٔ شمسی', description: 'خورشید، سیاره‌ها و اجرام کوچک‌تر چگونه در کنار هم قرار گرفته‌اند؟' },
       { id: 'planets', title: 'سیاره‌ها و قمرها', description: 'جهان‌های متفاوت را با ویژگی‌هایی مثل جو، سطح و قمرها مقایسه کن.' },
@@ -62,7 +62,7 @@ window.CLUB_CATEGORIES = [
     slug: 'science', title: 'دنیای شگفت‌انگیز علم', shortTitle: 'شگفتی‌های علم',
     kicker: 'هر پرسش، یک پنجرهٔ تازه', description: 'پدیده‌های اطرافمان را با فیزیک، شیمی، زیست‌شناسی و مشاهدهٔ طبیعت بهتر بفهم؛ علم از سؤال‌های خوب شروع می‌شود.',
     cardText: 'از رنگین‌کمان نور تا سازوکار طبیعت؛ علم را در اتفاق‌های روزمره پیدا کن.',
-    image: '/assets/images/science-world.webp',
+    image: 'https://cdn.jsdelivr.net/gh/Kharideali/danesh-club@main/assets/images/science-world.webp',
     tone: '#e6f6ee', accent: '#39896b', topics: [
       { id: 'physics', title: 'فیزیک به زبان ساده', description: 'نیرو، انرژی، نور و حرکت را با نمونه‌های روزمره توضیح بده.' },
       { id: 'chemistry', title: 'شیمی و واکنش‌ها', description: 'از ذره‌ها و پیوندها تا تغییرهایی که ماده را به شکل تازه درمی‌آورند.' },
