@@ -36,7 +36,7 @@
       <section class="category-hero" style="--category-tone:${category.tone};--category-accent:${category.accent}" aria-labelledby="category-title">
         <div class="category-copy"><span class="eyebrow">${category.kicker}</span><h1 id="category-title">${category.title}</h1>
           <p>${category.description}</p><a class="button button-dark" href="#topics">کاوش موضوع‌ها ${iconArrow}</a>
-        </div><div class="category-art"><img src="${link(category.image)}" alt="تصویرسازی ${category.title}" width="720" height="540" fetchpriority="high"></div>
+        </div><div class="category-art"><img src="${category.image}" alt="تصویرسازی ${category.title}" width="720" height="540" fetchpriority="high"></div>
         <span class="category-orbit" aria-hidden="true"></span>
       </section>
       <section class="topic-section" id="topics" aria-labelledby="topics-title">
