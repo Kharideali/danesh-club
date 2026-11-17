@@ -5,8 +5,8 @@ window.CLUB_CATEGORIES = [
     cardText: 'با ابزارهایی آشنا شو که کمک می‌کنند جهان را دورتر، نزدیک‌تر و دقیق‌تر ببینی.',
     image: 'https://cdn.jsdelivr.net/gh/Kharideali/danesh-club@main/assets/images/science-tools.webp',
     tone: '#fff0e9', accent: '#e66b4f', topics: [
-      { id: 'telescopes', title: 'تلسکوپ و نجوم', description: 'از دهانه و بزرگ‌نمایی تا انتخاب نخستین ابزار رصد؛ هر ویژگی چه معنایی دارد؟' },
-      { id: 'microscopes', title: 'میکروسکوپ و دنیای میکروسکوپی', description: 'نمونه‌ها را با وضوح بیشتر ببین و با انواع میکروسکوپ آشنا شو.' },
+      { id: 'telescopes', title: 'تلسکوپ و نجوم', description: 'از دهانه و بزرگ‌نمایی تا انتخاب نخستین ابزار رصد؛ هر ویژگی چه معنایی دارد؟', href: '/guides/telescope/' },
+      { id: 'microscopes', title: 'میکروسکوپ و دنیای میکروسکوپی', description: 'نمونه‌ها را با وضوح بیشتر ببین و با انواع میکروسکوپ آشنا شو.', href: '/guides/microscope/' },
       { id: 'experiments', title: 'ابزارهای آزمایش و مشاهده علمی', description: 'با ابزارهای اندازه‌گیری و مشاهده، پرسش‌ها را به بررسی‌های دقیق تبدیل کن.' },
       { id: 'learning-tools', title: 'ابزارهای کمک‌آموزشی', description: 'وسایلی برای فهم بهتر مفاهیم، ساختن مدل و تجربه‌کردن ایده‌ها.' },
       { id: 'kits', title: 'کیت‌های علمی و آزمایشگاهی', description: 'یک موضوع علمی را با مجموعه‌ای از فعالیت‌ها و آزمایش‌های هدایت‌شده دنبال کن.' },
