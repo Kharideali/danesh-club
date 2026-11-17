@@ -18,7 +18,7 @@
       <article class="topic-card" id="${topic.id}">
         <span class="topic-number" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span>
         <h3>${topic.title}</h3><p>${topic.description}</p>
-        <a class="text-link" href="#${topic.id}">مرور این موضوع ${iconArrow}</a>
+        <a class="text-link" href="${topic.href ? link(topic.href) : `#${topic.id}`}">مرور این موضوع ${iconArrow}</a>
       </article>`).join('');
     const guides = category.guides.length ? `
       <section class="guide-panel" aria-labelledby="guide-title">
