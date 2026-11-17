@@ -11,10 +11,7 @@ window.CLUB_CATEGORIES = [
       { id: 'learning-tools', title: 'ابزارهای کمک‌آموزشی', description: 'وسایلی برای فهم بهتر مفاهیم، ساختن مدل و تجربه‌کردن ایده‌ها.' },
       { id: 'kits', title: 'کیت‌های علمی و آزمایشگاهی', description: 'یک موضوع علمی را با مجموعه‌ای از فعالیت‌ها و آزمایش‌های هدایت‌شده دنبال کن.' },
       { id: 'stem', title: 'ابزارهای آموزشی STEM', description: 'علم، فناوری، مهندسی و ریاضی را با ساخت، آزمون و اصلاح تجربه کن.' }
-    ], guides: [
-      { title: 'راهنمای تلسکوپ', desc: 'آشنایی با دهانه، فاصلهٔ کانونی، بزرگ‌نمایی و انتخاب چشمی.', href: 'https://kharideali.github.io/aperture-guide/', label: 'رفتن به راهنما' },
-      { title: 'راهنمای میکروسکوپ', desc: 'شناخت انواع میکروسکوپ و دیدن دنیای کوچک با نگاه دقیق‌تر.', href: 'https://kharideali.github.io/microscope_guide/', label: 'رفتن به راهنما' }
-    ]
+    ], guides: []
   },
   {
     slug: 'puzzles', title: 'پازل‌ها و بازی‌های فکری', shortTitle: 'بازی‌های فکری',
